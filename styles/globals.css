@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.item-card{
+  @apply  w-36 shadow-xl text-xs text-center rounded-lg overflow-hidden grid text-white font-sans;
+  background-color: #424242;
+}
+
+.logo-header {
+  @apply flex justify-center text-white tracking-widest text-xl p-2;
+  background-color: #424242;
+  font-family: 'Archivo';
+}
+
+#preview-act-btn{
+  @apply text-xs flex justify-center w-24 text-white uppercase bg-blue-800 rounded-lg p-2 cursor-pointer;
+}
